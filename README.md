@@ -1,4 +1,4 @@
- <h1>Create an empty react app using create-react-app and publish to AWS s3 bucket</h1>
+ <Alt-h1>Create an empty react app using create-react-app and publish to AWS s3 bucket</Alt-h1>
 
 # create empty react page
 npm install -g create-react-app
