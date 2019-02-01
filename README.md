@@ -9,7 +9,6 @@
 * cd NameOfApp
 * npm run build
 
-
 **Create s3 bucket - requires awscli**
 * aws s3 mb s3://nameofapp.com
 * aws s3 website s3://nameofapp.com --index-document index.html
@@ -17,8 +16,8 @@
 **Push build files to S3 bucket**
 * aws s3 sync --acl public-read --sse --delete ./build/ s3://nameofapp.com
 
-#### Test the site
+**Test the site**
 http://nameofapp.com.s3-website-eu-west-1.amazonaws.com/
 
 **Tidy up**
-aws s3 rb s3://nameofapp.com --force
+* aws s3 rb s3://nameofapp.com --force
